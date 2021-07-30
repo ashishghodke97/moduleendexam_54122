@@ -1,0 +1,21 @@
+1. Open the file /usr/share/dictionary in process P1 and send the 
+strings starting with letter 'm' 
+to process P2 using message queues. In process P2 find and print the length of string.
+
+we are going to use the concept of msg Queues 
+where there are two processes which are going to communicate with each other 
+process1 sends the msg to process 2
+
+adding the libraries
+in main 
+defining the msgque structure
+defining the attributes
+opening the queue with neccesary permissiom
+sending the msg with mq_Send cmd
+and clossing the queue
+
+in p2 defining the msgque and buffer and attributes
+
+open the same queue
+and  recevie the msg in buffer with prioeity
+and print it and close it
